@@ -1,2 +1,0 @@
-# DevTinder
-MERN stack project 
