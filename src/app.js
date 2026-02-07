@@ -39,14 +39,12 @@ app.post("/login",async (req,res)=>{
         if(!user){
             throw new Error("NOT VALID EMAIL");
         }
-        const isPasswordVaild =await bcrypt.compare(password,user.password);
+        const isPasswordVaild =user.isPasswordVaild();
         if(!isPasswordVaild){
             throw new Error("Password Not Valid");
         }
         else{
-            const token = jwt.sign({_id:user._id},"CodeCrush@123",{
-                expiresIn:"1d",
-            });
+            const token = await user.getJWT();
             res.cookie("token",token);
             res.send("LOGIN SUCCESSFULL");
         }
