@@ -132,26 +132,13 @@ CodeCrush/
 ├── package.json         # Dependencies & scripts
 └── README.md            # You are here!
 ```
-
----
-
-## 🤝 Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ---
 
 ## 📬 Contact
 
-Utkarsh Chauhan - [GitHub Profile](https://github.com/Unibik21) - utkarshcha21@gmail.com
+Utkarsh Chauhan - [GitHub Profile](https://github.com/Unibik21)
 
-Project Link: [https://github.com/your_username/CodeCrush](https://github.com/Unibik21/CodeCrush)
+Project Link: [https://github.com/Unibik21/CodeCrush](https://github.com/Unibik21/CodeCrush)
 
 ---
 <p align="center">Made with ❤️ for Developers</p>
