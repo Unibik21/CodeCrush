@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/100/external-code-setting-flatart-icons-flat-flatarticons.png" alt="Logo" width="80" height="80">
-  <h1 align="center">CodeCrush (DevTinder) Backend 🚀</h1>
+  <h1 align="center">CodeCrush Backend 🚀</h1>
 
   <p align="center">
     A powerful, scalable RESTful API powering the "Tinder for Developers" platform. 
@@ -8,13 +7,8 @@
     Connect, swipe, and collaborate with developers around the globe!
     <br />
     <br />
-    <a href="#features"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="#demo">View Demo</a>
-    ·
-    <a href="#api-endpoints">API Reference</a>
-    ·
+    <a href="#features"><strong>Features</strong></a>
+    <a href="#api-endpoints">API Endpoints</a>
     <a href="#getting-started">Getting Started</a>
   </p>
 </div>
