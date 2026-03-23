@@ -5,7 +5,6 @@
     A powerful, scalable RESTful API powering the "Tinder for Developers" platform. 
     <br />
     Connect, swipe, and collaborate with developers around the globe!
-    <br />
   </p>
 </div>
 
