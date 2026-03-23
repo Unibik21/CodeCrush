@@ -49,8 +49,17 @@ reqRouter.post("/request/send/:status/:userId",userAuth,async(req,res)=>{
         });
 
         const data = await connectionRequest.save();
-        const emailRes = await sendEmail.run();
-        console.log(emailRes);
+
+        // Send email notification (non-blocking — don't let email failure break the request)
+        try {
+            const emailRes = await sendEmail.run(
+                `New Connection Request: ${req.user.firstName} is ${status} in you!`,
+                `${req.user.firstName} ${req.user.lastName || ""} has sent you a connection request on CodeCrush.`
+            );
+            console.log("Email sent successfully:", emailRes);
+        } catch (emailErr) {
+            console.error("Email failed (non-blocking):", emailErr.message);
+        }
 
         res.send({
             message:`Request Status : ${status}`,
