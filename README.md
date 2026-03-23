@@ -6,10 +6,6 @@
     <br />
     Connect, swipe, and collaborate with developers around the globe!
     <br />
-    <br />
-    <a href="#features"><strong>Features</strong></a>
-    <a href="#api-endpoints">API Endpoints</a>
-    <a href="#getting-started">Getting Started</a>
   </p>
 </div>
 
